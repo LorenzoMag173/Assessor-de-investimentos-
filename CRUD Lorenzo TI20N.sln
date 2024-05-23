@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD Lorenzo TI20N", "CRUD Lorenzo TI20N\CRUD Lorenzo TI20N.csproj", "{7321B14C-DFE9-4B0E-97EC-D250BE69C5D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7321B14C-DFE9-4B0E-97EC-D250BE69C5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7321B14C-DFE9-4B0E-97EC-D250BE69C5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7321B14C-DFE9-4B0E-97EC-D250BE69C5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7321B14C-DFE9-4B0E-97EC-D250BE69C5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3663EEC-31D9-4F58-BF52-1830165E7708}
+	EndGlobalSection
+EndGlobal
