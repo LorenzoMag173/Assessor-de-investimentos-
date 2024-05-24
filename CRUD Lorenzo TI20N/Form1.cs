@@ -13,10 +13,19 @@ namespace CRUD_Lorenzo_TI20N
     public partial class CBJ : Form
     {
         DAO bd;
+        Pagina_inicial pg;
+        Atualizar_cadastro cd;
+        Cadastrar ca;
+        Excluir1 ex;
+
         public CBJ()
         {
             InitializeComponent();
             bd = new DAO();
+            pg = new Pagina_inicial();
+            cd = new Atualizar_cadastro();
+            ca = new Cadastrar();
+            ex = new Excluir1();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -36,14 +45,38 @@ namespace CRUD_Lorenzo_TI20N
 
         private void Entrar_Click(object sender, EventArgs e)
         {
-            if(Login_TextChanged.Text=="login" && Senha_TextChanged.Text=="1234")
-            {
-                MessageBox.Show("Bem vindo investidor");
-            }
-            else
-            {
-                MessageBox.Show("Login ou Senha incorretos!");
-            }
+            
         }//fim do login
+
+        private void fecharToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("    Tem certeza que deseja Sair?", "Sair", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            {
+
+                Application.Exit();
+
+            }
+
+        }//fim do botao fechar 
+
+        private void atualizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {           
+            pg.ShowDialog();
+        }
+
+        private void atualizarCadastroToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            cd.ShowDialog();
+        }
+
+        private void excluirCadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ex.ShowDialog();
+        }
+
+        private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ca.ShowDialog();
+        }
     }//fim do project
 }//fim da classe 

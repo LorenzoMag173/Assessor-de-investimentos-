@@ -40,17 +40,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(268, 131);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(342, 170);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(242, 46);
+            this.label1.Size = new System.Drawing.Size(119, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Excluir dado";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textboxExcluir
             // 
-            this.textboxExcluir.Location = new System.Drawing.Point(347, 211);
+            this.textboxExcluir.Location = new System.Drawing.Point(361, 211);
             this.textboxExcluir.Name = "textboxExcluir";
             this.textboxExcluir.Size = new System.Drawing.Size(100, 20);
             this.textboxExcluir.TabIndex = 1;
@@ -61,7 +61,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(307, 211);
+            this.label2.Location = new System.Drawing.Point(321, 211);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 17);
             this.label2.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             // botaoExcluir
             // 
-            this.botaoExcluir.Location = new System.Drawing.Point(309, 249);
+            this.botaoExcluir.Location = new System.Drawing.Point(323, 249);
             this.botaoExcluir.Name = "botaoExcluir";
             this.botaoExcluir.Size = new System.Drawing.Size(75, 23);
             this.botaoExcluir.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             // buttonCancelar
             // 
-            this.buttonCancelar.Location = new System.Drawing.Point(390, 249);
+            this.buttonCancelar.Location = new System.Drawing.Point(404, 249);
             this.buttonCancelar.Name = "buttonCancelar";
             this.buttonCancelar.Size = new System.Drawing.Size(75, 23);
             this.buttonCancelar.TabIndex = 4;

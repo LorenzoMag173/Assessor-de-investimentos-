@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CBJ));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -36,6 +37,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.Entrar = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.atualizarCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fecharToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atualizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atualizarCadastroToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.excluirCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cadastrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -112,12 +123,83 @@
             this.Entrar.UseVisualStyleBackColor = false;
             this.Entrar.Click += new System.EventHandler(this.Entrar_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.atualizarCadastroToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(725, 24);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // atualizarCadastroToolStripMenuItem
+            // 
+            this.atualizarCadastroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.abrirToolStripMenuItem,
+            this.fecharToolStripMenuItem});
+            this.atualizarCadastroToolStripMenuItem.Name = "atualizarCadastroToolStripMenuItem";
+            this.atualizarCadastroToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.atualizarCadastroToolStripMenuItem.Text = "Menu";
+            // 
+            // abrirToolStripMenuItem
+            // 
+            this.abrirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.atualizarToolStripMenuItem,
+            this.atualizarCadastroToolStripMenuItem1,
+            this.excluirCadastroToolStripMenuItem,
+            this.cadastrarToolStripMenuItem});
+            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.abrirToolStripMenuItem.Text = "Abrir";
+            // 
+            // fecharToolStripMenuItem
+            // 
+            this.fecharToolStripMenuItem.Name = "fecharToolStripMenuItem";
+            this.fecharToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fecharToolStripMenuItem.Text = "Fechar";
+            this.fecharToolStripMenuItem.Click += new System.EventHandler(this.fecharToolStripMenuItem_Click);
+            // 
+            // atualizarToolStripMenuItem
+            // 
+            this.atualizarToolStripMenuItem.Name = "atualizarToolStripMenuItem";
+            this.atualizarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.atualizarToolStripMenuItem.Text = "Página inicial ";
+            this.atualizarToolStripMenuItem.Click += new System.EventHandler(this.atualizarToolStripMenuItem_Click);
+            // 
+            // atualizarCadastroToolStripMenuItem1
+            // 
+            this.atualizarCadastroToolStripMenuItem1.Name = "atualizarCadastroToolStripMenuItem1";
+            this.atualizarCadastroToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.atualizarCadastroToolStripMenuItem1.Text = "Atualizar cadastro";
+            this.atualizarCadastroToolStripMenuItem1.Click += new System.EventHandler(this.atualizarCadastroToolStripMenuItem1_Click);
+            // 
+            // excluirCadastroToolStripMenuItem
+            // 
+            this.excluirCadastroToolStripMenuItem.Name = "excluirCadastroToolStripMenuItem";
+            this.excluirCadastroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.excluirCadastroToolStripMenuItem.Text = "Excluir cadastro";
+            this.excluirCadastroToolStripMenuItem.Click += new System.EventHandler(this.excluirCadastroToolStripMenuItem_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // cadastrarToolStripMenuItem
+            // 
+            this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
+            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cadastrarToolStripMenuItem.Text = "cadastrar";
+            this.cadastrarToolStripMenuItem.Click += new System.EventHandler(this.cadastrarToolStripMenuItem_Click);
+            // 
             // CBJ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CRUD_Lorenzo_TI20N.Properties.Resources.pngtree_business_finance_abstract_dollar_symbol_stock_market_symbol_background_image_906537;
-            this.ClientSize = new System.Drawing.Size(708, 450);
+            this.ClientSize = new System.Drawing.Size(725, 450);
             this.Controls.Add(this.Entrar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -125,9 +207,13 @@
             this.Controls.Add(this.Login);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "CBJ";
             this.Text = "CBJ Investimentos";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -142,6 +228,15 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button Entrar;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem atualizarCadastroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fecharToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem atualizarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem atualizarCadastroToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem excluirCadastroToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem;
     }
 }
 
