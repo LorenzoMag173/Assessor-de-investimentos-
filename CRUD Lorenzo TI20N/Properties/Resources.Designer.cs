@@ -73,6 +73,36 @@ namespace CRUD_Lorenzo_TI20N.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3d_rendering_abstract_wall_wave_architecture_blue_luxury_background_41204_15851 {
+            get {
+                object obj = ResourceManager.GetObject("3d-rendering-abstract-wall-wave-architecture-blue-luxury-background_41204-15851", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ed82529805250b004815da6debb66851 {
+            get {
+                object obj = ResourceManager.GetObject("ed82529805250b004815da6debb66851", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ed82529805250b004815da6debb668511 {
+            get {
+                object obj = ResourceManager.GetObject("ed82529805250b004815da6debb668511", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_business_finance_abstract_dollar_symbol_stock_market_symbol_background_image_906537 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-business-finance-abstract-dollar-symbol-stock-market-symbol-background-im" +
